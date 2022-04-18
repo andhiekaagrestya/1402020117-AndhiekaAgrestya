@@ -81,6 +81,9 @@ $(document).ready(function() {
         }
         $("#nomor").val("");
         $("#pulsa-1").val("");
+        $("#btn1").prop("disabled", true);
+        $("#btn1").css("background-color", "#4950572e");
+        $("#btn1").css("color", "#929292");
     });
 
     $(".btn2").click(function() {
@@ -98,6 +101,9 @@ $(document).ready(function() {
         }
         $('#nomor').val('');
         $(".paket-1").val("");
+        $(".btn2").prop("disabled", true);
+        $(".btn2").css("background-color", "#4950572e");
+        $(".btn2").css("color", "#929292");
     });
 
 });
